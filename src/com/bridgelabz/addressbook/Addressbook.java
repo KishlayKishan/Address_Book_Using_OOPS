@@ -1,6 +1,7 @@
 package com.bridgelabz.addressbook;
 
 class Contact {
+
 	private String firstName;
 	private String lastName;
 	private String address;
@@ -11,7 +12,7 @@ class Contact {
 	private String email;
 
 	public Contact(String firstName, String lastName, String address, String city, int zipcode, String state,
-				   String phoneNo, String email) {
+			String phoneNo, String email) {
 		setFirstName(firstName);
 		setLastName(lastName);
 		setAddress(address);
@@ -94,17 +95,13 @@ class Contact {
 
 }
 
-public class AddressBook {
+public class Addressbook {
+
 	public static void main(String[] args) {
 		System.out.println("Welcome to Address Book Programs");
-		Contact contact = new Contact(" Akshay", "Kumar", "Celestial City", "Pune", 412101, "Maharashtra", "7057082582",
-				"akaakshay304@gmail.com");
+		Contact contact = new Contact(" Kishlay", "Kishan", "Aghoria Bazar", "Muzaffarpur", 842002, "Bihar",
+				"7979034653", "kishan.kishlay20@gmail.com");
 		System.out.println(contact);
 
 	}
 }
-© 2022 GitHub, Inc.
-		Terms
-		Privacy
-		Security
-
