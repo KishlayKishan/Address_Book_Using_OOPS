@@ -91,7 +91,6 @@ public class Contact {
 	public String toString() {
 		return "Contact [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
 				+ ", state=" + state + ", zipcode=" + zipcode + ", phoneNo=" + phoneNo + ", email=" + email + "]";
-
 	}
 
 }
